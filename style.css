@@ -1,0 +1,43 @@
+/* ======== Body and Page Styling ======== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Try changing this color */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ======== Headings ======== */
+h1 {
+  color: darkblue; /* Change this color to your favorite */
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* ======== Score and Timer ======== */
+p {
+  font-size: 20px;
+  color: #333;
+}
+
+/* ======== Game Area ======== */
+#gameArea {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black; /* Try changing border style */
+  margin: 20px auto;
+  position: relative;
+  background-color: #e0e0e0; /* Change background color */
+}
+
+/* ======== Box Styling ======== */
+#box {
+  width: 50px;      /* Try making it bigger or smaller */
+  height: 50px;     /* Try making it bigger or smaller */
+  background-color: red; /* Change the color */
+  position: absolute;
+  cursor: pointer;
+  /* OPTIONAL: Try adding border radius for rounded corners */
+  /* border-radius: 10px; */
+}
+
